@@ -4,7 +4,7 @@ A payment gateway extension for [Paymenter](https://paymenter.org) that integrat
 
 ![Paymenter](https://img.shields.io/badge/Paymenter-v1.x-4B32C3.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-
+![PHP](https://img.shields.io/badge/PHP-8.3+-777BB4.svg)
 
 ---
 
@@ -106,12 +106,6 @@ extensions/Gateways/MCsets/
 
 ---
 
-## Security
+## License
 
-- HMAC-SHA256 signature verification on every webhook
-- Constant-time comparison to prevent timing attacks
-- 5-minute timestamp window to prevent replay attacks
-- No card data ever touches your server
-
----
-Copyright (c) 2026 suBwAy
+Licensed under the [MIT License](LICENSE).
